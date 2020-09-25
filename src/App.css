@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.nav-link{
+  color:#000000;
+  font-weight: 500;
+  border:0.1px solid rgb(226, 226, 226)!important;
+}
+.nav-link:hover{
+  border:0.1px solid rgb(173, 168, 168)!important;
+  color:black;
+}
+.dropdown{
+  border:0px;
+}
+.parent{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,2fr));
+  height:100%;
+}
+.margin{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,2fr));
+  grid-gap: 15px;
+}
+.col-text1{
+  background-color: rgb(151, 166, 216);
+  color:white;
+}
+.col-text2{
+  background-color: rgb(234, 229, 245);
+}
+.text1{
+  color:red;
+}
+.text2{
+  color:green;
+}
+.checkbox{
+  margin-left:15px;
+  width: 16px;
+  height: 16px;
+}
